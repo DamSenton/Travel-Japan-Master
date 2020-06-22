@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+font-family: Lato;
+  color: #777777;
+  background-color: #fafafa;
+}
+
+h2{
+  font-family: Oswald;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+/* ---------------- Website colours */
+
+
+
+
+
+
+
+/* ----------------- Header / Nav-Bar */
+
+.navbar{
+    text-align: left;
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    line-height: 75px;
+    padding:0;
+    margin:0;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(111, 103, 103, 0.5);
+}
+
+.logo{
+
+    font-size: 35px;
+}
+
+
+
+
+
+/* ----------------- Hero Image */
+.hero-image{
+background: url("https://www.luxurygold.com/-/media/images/destinations/2018/asia/japan_mountfuji_hero01.jpg?h=660&w=1920&la=en&hash=0A90D9097E7D34B5875CA001358F9F0A6AF16D30") no-repeat center center;
+width: 100%;
+height: 500px;
+
+position: relative;
+
+animation-name: banner-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+.hero-outer{
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  
+}
+
+.cover-text-header{
+
+    font-size: 30px;
+}
+
+
+#cover-text-box{
+    
+    font-family: Oswald;
+    background-color: #ffb444;
+    width: 30%;
+    height: 40%;
+    opacity: 0.89;
+    padding-top: 30px;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 75px;
+    z-index: 1;
+}
+
+.cover-text-content{
+    
+    color: white;
+    text-transform: uppercase;
+}
+
+@keyframes banner-zoom{
+  from{
+    transform: scale(1)
+  }
+  to{transform: scale(1.08)
+  }
+}
+
+/* ----------------- Main Content */
+
+
+
+
+
+
+
+/* ------------------ Footer */
+
+.social-media{
+    text-align: center;
+}
+
+.social-media li{
+    display: inline;
+}
+
+.social-media i{
+    font-size: 160%;
+    letter-spacing: 25px;
+    padding: 5%;
+    margin: 1%;
+    text-decoration: none;
+    color: #777777;
+
+}
