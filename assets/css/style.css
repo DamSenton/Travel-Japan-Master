@@ -57,7 +57,7 @@ background: url("https://www.luxurygold.com/-/media/images/destinations/2018/asi
 width: 100%;
 height: 500px;
 
-position: relative;
+position: absolute;
 
 animation-name: banner-zoom;
 animation-duration: 5s;
@@ -73,25 +73,22 @@ animation-fill-mode: forwards;
 }
 
 .cover-text-header{
-
-    font-size: 30px;
+    font-size: 300px;
 }
 
-
 #cover-text-box{
-    
     font-family: Oswald;
     background-color: #ffb444;
-    width: 30%;
+    width: 40%;
     height: 40%;
     opacity: 0.89;
     padding-top: 30px;
     padding-left: 10px;
-    position: absolute;
+    position: relative;
     bottom: 20px;
     left: 75px;
     z-index: 1;
-    contain: size;
+    font-size: 30%;
 }
 
 .cover-text-content{
