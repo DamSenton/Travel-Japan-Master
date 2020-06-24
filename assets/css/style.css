@@ -70,32 +70,47 @@ animation-fill-mode: forwards;
   height: 500px;
   position: relative;
   
+
+
 }
 
 .cover-text-header{
-    font-size: 300px;
-}
-
-#cover-text-box{
+    color: #000;
     font-family: Oswald;
-    background-color: #ffb444;
-    width: 40%;
-    height: 40%;
-    opacity: 0.89;
-    padding-top: 30px;
-    padding-left: 10px;
     position: relative;
-    bottom: 20px;
-    left: 75px;
-    z-index: 1;
-    font-size: 30%;
+    font-size: 3vmax;
 }
 
 .cover-text-content{
+    color: #fafafa;
+    font-family: Oswald;
+    position: relative;
+    font-size: 2.8vmax;
+    word-wrap: normal;
     
-    color: white;
-    text-transform: uppercase;
 }
+
+#cover-text-box{
+    
+    background-color: #ffb444;
+    width: 35vw;
+    height: 30vh;
+    opacity: 0.89;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+    margin: 0 auto;
+    word-wrap: normal;
+}
+
+
+
 
 @keyframes banner-zoom{
   from{
@@ -131,4 +146,22 @@ animation-fill-mode: forwards;
     text-decoration: none;
     color: #777777;
 
+}
+
+/* ------------------------ Gallery */
+
+.images{
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+}
+.images img{
+  width: 100%;
+}
+
+@media screen and (max-width:800px){
+  .images{
+  column-count: 2;
+  }
 }
