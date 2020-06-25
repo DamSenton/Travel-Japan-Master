@@ -15,6 +15,9 @@ h2{
 
 /* ---------------- Website colours */
 
+.bg-light {
+    background-color: white;
+}
 
 
 
@@ -32,6 +35,12 @@ h2{
     line-height: 75px;
     padding:0;
     margin:0;
+    
+    position: absolute;
+   
+    
+
+
 
 }
 .navbar-light .navbar-toggler {
@@ -42,9 +51,10 @@ h2{
     color: rgba(111, 103, 103, 0.5);
 }
 
+
 .logo{
 
-    font-size: 35px;
+    font-size: 5vmin;
 }
 
 
@@ -53,15 +63,19 @@ h2{
 
 /* ----------------- Hero Image */
 .hero-image{
-background: url("https://www.luxurygold.com/-/media/images/destinations/2018/asia/japan_mountfuji_hero01.jpg?h=660&w=1920&la=en&hash=0A90D9097E7D34B5875CA001358F9F0A6AF16D30") no-repeat center center;
+background: url("https://www.luxurygold.com/-/media/images/destinations/2018/asia/japan_mountfuji_hero01.jpg?h=660&w=1920&la=en&hash=0A90D9097E7D34B5875CA001358F9F0A6AF16D30") no-repeat center center fixed;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 width: 100%;
 height: 500px;
 
 position: absolute;
 
-animation-name: banner-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+
+
 }
 
 .hero-outer{
@@ -78,23 +92,45 @@ animation-fill-mode: forwards;
     color: #000;
     font-family: Oswald;
     position: relative;
-    font-size: 3vmax;
+    
+    
+    
 }
 
 .cover-text-content{
     color: #fafafa;
     font-family: Oswald;
     position: relative;
-    font-size: 2.8vmax;
-    word-wrap: normal;
     
+    
+}
+
+@media screen and (min-width: 601px) {
+  .cover-text-header, .cover-text-content {
+    font-size: 3vh 3vw;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .cover-text-header,.cover-text-content {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover-text-header,.cover-text-content {
+    font-size: 18px;
+  }
 }
 
 #cover-text-box{
     
     background-color: #ffb444;
-    width: 35vw;
-    height: 30vh;
+    width: 40%;
+    height: 40%;
+    max-height: 370px;
+    max-width: 290px;
     opacity: 0.89;
     padding-top: 30px;
     padding-left: 10px;
@@ -106,19 +142,12 @@ animation-fill-mode: forwards;
     left: 20px;
     contain: content;
     margin: 0 auto;
-    word-wrap: normal;
+    overflow: hidden;
 }
 
 
 
 
-@keyframes banner-zoom{
-  from{
-    transform: scale(1)
-  }
-  to{transform: scale(1.08)
-  }
-}
 
 /* ----------------- Main Content */
 
@@ -149,6 +178,8 @@ animation-fill-mode: forwards;
 }
 
 /* ------------------------ Gallery */
+
+/* -------------------- ADD HOVER ANIMATIONS TO PICTURES DESCRIBING THEM */
 
 .images{
   clear: both;
