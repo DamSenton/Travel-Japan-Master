@@ -35,6 +35,7 @@ h2{
 }
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.5);
+    border: none;
    
 }
 .navbar-light .navbar-nav .nav-link {
@@ -56,7 +57,7 @@ li a:hover{
 
 /* ----------------- Hero Image */
 .hero-image{
-background: url("https://www.luxurygold.com/-/media/images/destinations/2018/asia/japan_mountfuji_hero01.jpg?h=660&w=1920&la=en&hash=0A90D9097E7D34B5875CA001358F9F0A6AF16D30") no-repeat center center fixed;
+background: url("https://www.luxurygold.com/-/media/images/destinations/2018/asia/japan_mountfuji_hero01.jpg?h=660&w=1920&la=en&hash=0A90D9097E7D34B5875CA001358F9F0A6AF16D30") no-repeat center center;
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -65,9 +66,7 @@ background: url("https://www.luxurygold.com/-/media/images/destinations/2018/asi
 width: 100%;
 height: 500px;
 
-position: absolute;
-
-
+position: relative;
 
 }
 
@@ -76,46 +75,68 @@ position: absolute;
   width: 100%;
   height: 500px;
   position: relative;
-  
-
-
+  margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1200px) {
+  .hero-image, .hero-outer{
+    height: 20vh;
+    width: 100%;
+    position: relative;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .hero-image, .hero-outer{
+    height: 20vh;
+    width: 100%;
+    position: relative;
+  }
+
+@media screen and (max-width: 320px) {
+  .hero-image, .hero-outer{
+    height: 20vh;
+    width: 100%;
+    position: relative;
+  }
+}
+
+/* -----------------------------Cover text */
 
 .cover-text-header{
     color: #000;
     font-family: Oswald;
     position: relative;
     
-    
-    
 }
 
 .cover-text-content{
     color: #fafafa;
     font-family: Oswald;
-    position: relative;
-    
-    
+    position: relative;   
 }
 
 @media screen and (min-width: 601px) {
-  .cover-text-header, .cover-text-content {
-    font-size: 3vh 3vw;
+  .cover-text-header, .cover-text-content, .content-header{
+    font-size: 4vmin;
   }
 }
 
 
 @media screen and (max-width: 600px) {
-  .cover-text-header,.cover-text-content {
-    font-size: 20px;
+  .cover-text-header,.cover-text-content, .content-header{
+    font-size: 3.5vmin;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover-text-header,.cover-text-content {
-    font-size: 18px;
+  .cover-text-header,.cover-text-content, .content-header{
+    font-size: 3.5vmin;
   }
 }
+
+
 
 #cover-text-box{
     
@@ -138,15 +159,95 @@ position: absolute;
     overflow: hidden;
 }
 
+@media screen and (max-width: 600px){
+#cover-text-box {
+    
+    width: 40%;
+    height: 60%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+}
+}
+@media screen and (min-width: 601px) {
+  .cover-text-box{
+    width: 40%;
+    height: 15%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+    top: 15px;
+}
+}
+  }
+}
 
+@media screen and (max-width: 600px) {
+  .cover-text-box{
+      width: 40%;
+    height: 15%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+    top: 15px;
+}
+}
+  }
+}
 
+@media screen and (max-width: 320px) {
+  .cover-text-box{
+    top: 0;
+    bottom: 10px;
+  }
+}
 
+/* ---------------------- Block dividers */
+
+.block-divider{
+    width: 50%;
+    height: 2px;
+    background-color: #ffb444;
+    border: none;
+}
+
+/* ---------------------- / Block dividers */
 
 /* ----------------- Main Content */
 
+.container{
+    width: 100%;
+    
+    border: 1px solid #777;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    padding:5px;
+    text-align:center;
+}
 
+.container div{
+    width: 100%;
+    
 
-
+    text-align:center;
+}
 
 
 
@@ -170,6 +271,8 @@ position: absolute;
 
 }
 
+
+
 /* ------------------------ Gallery */
 
 /* -------------------- ADD HOVER ANIMATIONS TO PICTURES DESCRIBING THEM */
@@ -182,6 +285,7 @@ position: absolute;
 }
 .images img{
   width: 100%;
+  border: 0.5px solid #fafafa;
 }
 
 @media screen and (max-width:800px){
