@@ -6,3 +6,6 @@ The project is an in-depth travel guide for Japan, and also provides a gallery o
 
 <hr>
 
+## Landing Page
+
+The landing page has Bootstrap elements in place in order to display content responsively on all devcie widths.
