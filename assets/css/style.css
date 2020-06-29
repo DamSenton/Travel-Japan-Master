@@ -48,7 +48,7 @@ h2{
     font-size: 5vmin;
 }
 
-li a:hover{
+nav li a:hover{
     border-bottom: 1px solid #777;
 }
 
@@ -57,7 +57,7 @@ li a:hover{
 
 /* ----------------- Hero Image */
 .hero-image{
-background: url("https://www.luxurygold.com/-/media/images/destinations/2018/asia/japan_mountfuji_hero01.jpg?h=660&w=1920&la=en&hash=0A90D9097E7D34B5875CA001358F9F0A6AF16D30") no-repeat center center;
+background: url("https://upload.wikimedia.org/wikipedia/commons/9/99/Flickr_-_Shinrya_-_Mt_Fuji_from_Chureito_Pagoda.jpg") no-repeat center center;
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -67,15 +67,17 @@ width: 100%;
 height: 500px;
 
 position: relative;
+z-index: 0;
 
 }
 
 .hero-outer{
   overflow: hidden;
   width: 100%;
-  height: 500px;
+  height: 400px;
   position: relative;
-  margin-bottom: 10px;
+  z-index: 0;
+  
 }
 
 @media screen and (max-width: 1200px) {
@@ -83,6 +85,7 @@ position: relative;
     height: 20vh;
     width: 100%;
     position: relative;
+    z-index: 0;
   }
 }
 
@@ -92,17 +95,21 @@ position: relative;
     height: 20vh;
     width: 100%;
     position: relative;
+    z-index: 0;
   }
+}
 
 @media screen and (max-width: 320px) {
   .hero-image, .hero-outer{
     height: 20vh;
     width: 100%;
     position: relative;
+    z-index: 0;
   }
 }
 
 /* -----------------------------Cover text */
+
 
 .cover-text-header{
     color: #000;
@@ -118,27 +125,27 @@ position: relative;
 }
 
 @media screen and (min-width: 601px) {
-  .cover-text-header, .cover-text-content, .content-header{
+  .cover-text-header, .cover-text-content, .content-header, .cover-text-box{
     font-size: 4vmin;
   }
 }
 
 
 @media screen and (max-width: 600px) {
-  .cover-text-header,.cover-text-content, .content-header{
+  .cover-text-header,.cover-text-content, .content-header, .cover-text-box {
     font-size: 3.5vmin;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover-text-header,.cover-text-content, .content-header{
+  .cover-text-header,.cover-text-content, .content-header, .cover-text-box{
     font-size: 3.5vmin;
   }
 }
 
 
 
-#cover-text-box{
+.cover-text-box{
     
     background-color: #ffb444;
     width: 40%;
@@ -149,8 +156,8 @@ position: relative;
     padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 5px;
-    position: absolute;
+    padding-bottom: 10px;
+    position: relative;
     bottom: 20px;
     z-index: 1;
     left: 20px;
@@ -159,9 +166,45 @@ position: relative;
     overflow: hidden;
 }
 
+
 @media screen and (max-width: 600px){
-#cover-text-box {
+.cover-text-box {
     
+      width: 40%;
+    height: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+    top: 30px;
+}
+}
+
+
+@media screen and (min-width: 601px) {
+  .cover-text-box {
+    width: 40%;
+    height: 50%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+   
+}
+}
+  
+
+
+@media screen and (max-width: 600px){
+.cover-text-box {
     width: 40%;
     height: 60%;
     padding-top: 5px;
@@ -172,51 +215,55 @@ position: relative;
     z-index: 1;
     left: 20px;
     contain: content;
+    top: 25px;
 }
-}
-@media screen and (min-width: 601px) {
-  .cover-text-box{
-    width: 40%;
-    height: 15%;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    contain: content;
-    top: 15px;
-}
-}
-  }
 }
 
-@media screen and (max-width: 600px) {
-  .cover-text-box{
-      width: 40%;
-    height: 15%;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    contain: content;
-    top: 15px;
-}
-}
-  }
-}
-
+  
 @media screen and (max-width: 320px) {
   .cover-text-box{
-    top: 0;
-    bottom: 10px;
+    width: 40%;
+    height: 60%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+    top: 25px;
+    
   }
 }
 
+@media screen and (min-width: 1200px){
+    .cover-text-box{
+    width: 40%;
+    height: 40%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+    bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 601px){
+.cover-text-header, .cover-text-content {
+    font-size: 2.5vmin;
+}
+}
+
+@media screen and (min-width: 1200px){
+.cover-text-header, .cover-text-content {
+    font-size: 4vmin;
+}
+}
 /* ---------------------- Block dividers */
 
 .block-divider{
@@ -255,22 +302,77 @@ position: relative;
 
 .social-media{
     text-align: center;
+    bottom: 5px;
+    padding: 0;
 }
 
 .social-media li{
     display: inline;
+    text-decoration: none;
 }
 
 .social-media i{
     font-size: 160%;
-    letter-spacing: 25px;
-    padding: 5%;
+    letter-spacing: 0px;
+    padding: 45px;
     margin: 1%;
     text-decoration: none;
     color: #777777;
+    bottom: 10px;
 
 }
 
+
+
+@media screen and (min-width: 601px) {
+  .social-media i{
+    font-size: 200%;
+    letter-spacing: 0px;
+    padding: 50px;
+    margin: 1%;
+    text-decoration: none;
+    color: #777777;
+    bottom: 0px;
+}
+}
+
+
+@media screen and (max-width: 600px){
+.social-media i{
+    font-size: 100%;
+    
+    padding: 20px;
+    margin: 1%;
+    text-decoration: none;
+    color: #777777;
+    bottom: 10px;
+}
+}
+
+  
+@media screen and (max-width: 320px) {
+  .social-media i{
+    font-size: 100%;
+    
+    padding: 15px;
+    margin: 1%;
+    text-decoration: none;
+    color: #777777;
+    bottom: 10px;
+}
+}
+
+@media screen and (min-width: 1200px){
+    .social-media i{
+    font-size: 160%;
+    letter-spacing: 100px;
+    padding: 45px;
+    margin: 1%;
+    text-decoration: none;
+    color: #777777;
+    bottom: 10px;
+    }
+}
 
 
 /* ------------------------ Gallery */
