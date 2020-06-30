@@ -1,87 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
-body{
-font-family: Lato;
+body {
+  font-family: Lato;
   color: #777777;
   background-color: #fafafa;
+  padding: 0;
+  margin: 0;
 }
 
-h2{
+h2 {
   font-family: Oswald;
   text-transform: uppercase;
   color: #000000;
 }
 
-
 /* ---------------- Website colours */
-
-
-
 
 /* ----------------- Header / Nav-Bar */
 
-.navbar{
-    color: black;
-    text-align: left;
-    display: inline;
-    text-decoration: none;
-    list-style: none;
-    font-size: 20px;
-    line-height: 75px;
-    padding:0;
-    margin:0;
-    position: absolute;
-
+.navbar {
+  color: black;
+  text-align: left;
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  line-height: 75px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
 }
 .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.5);
-    border: none;
-   
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(111, 103, 103, 0.5);
+  color: rgba(111, 103, 103, 0.5);
 }
 
-
-.logo{
-
-    font-size: 5vmin;
+.logo {
+  font-size: 5vmin;
 }
 
-nav li a:hover{
-    border-bottom: 1px solid #777;
+nav li a:hover {
+  border-bottom: 1px solid #777;
 }
-
-
-
 
 /* ----------------- Hero Image */
-.hero-image{
-background: url("https://upload.wikimedia.org/wikipedia/commons/9/99/Flickr_-_Shinrya_-_Mt_Fuji_from_Chureito_Pagoda.jpg") no-repeat center center;
-  
+.hero-image {
+  background: url("../images/main-hero-image.jpg") no-repeat center center;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-width: 100%;
-height: 500px;
+  width: 100%;
+  height: 500px;
 
-position: relative;
-z-index: 0;
-
+  position: relative;
+  z-index: 0;
 }
 
-.hero-outer{
+.hero-outer {
   overflow: hidden;
   width: 100%;
   height: 400px;
   position: relative;
   z-index: 0;
-  
 }
 
 @media screen and (max-width: 1200px) {
-  .hero-image, .hero-outer{
+  .hero-image,
+  .hero-outer {
     height: 20vh;
     width: 100%;
     position: relative;
@@ -89,9 +79,9 @@ z-index: 0;
   }
 }
 
-
 @media screen and (max-width: 600px) {
-  .hero-image, .hero-outer{
+  .hero-image,
+  .hero-outer {
     height: 20vh;
     width: 100%;
     position: relative;
@@ -100,7 +90,8 @@ z-index: 0;
 }
 
 @media screen and (max-width: 320px) {
-  .hero-image, .hero-outer{
+  .hero-image,
+  .hero-outer {
     height: 20vh;
     width: 100%;
     position: relative;
@@ -110,67 +101,68 @@ z-index: 0;
 
 /* -----------------------------Cover text */
 
-
-.cover-text-header{
-    color: #000;
-    font-family: Oswald;
-    position: relative;
-    
+.cover-text-header {
+  color: #000;
+  font-family: Oswald;
+  position: relative;
 }
 
-.cover-text-content{
-    color: #fafafa;
-    font-family: Oswald;
-    position: relative;   
+.cover-text-content {
+  color: #fafafa;
+  font-family: Oswald;
+  position: relative;
 }
 
 @media screen and (min-width: 601px) {
-  .cover-text-header, .cover-text-content, .content-header, .cover-text-box{
+  .cover-text-header,
+  .cover-text-content,
+  .content-header,
+  .cover-text-box {
     font-size: 4vmin;
   }
 }
 
-
 @media screen and (max-width: 600px) {
-  .cover-text-header,.cover-text-content, .content-header, .cover-text-box {
+  .cover-text-header,
+  .cover-text-content,
+  .content-header,
+  .cover-text-box {
     font-size: 3.5vmin;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover-text-header,.cover-text-content, .content-header, .cover-text-box{
+  .cover-text-header,
+  .cover-text-content,
+  .content-header,
+  .cover-text-box {
     font-size: 3.5vmin;
   }
 }
 
-
-
-.cover-text-box{
-    
-    background-color: #ffb444;
-    width: 40%;
-    height: 40%;
-    max-height: 370px;
-    max-width: 290px;
-    opacity: 0.89;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    position: relative;
-    bottom: 20px;
-    z-index: 1;
-    left: 20px;
-    contain: content;
-    margin: 0 auto;
-    overflow: hidden;
+.cover-text-box {
+  background-color: #ffb444;
+  width: 40%;
+  height: 40%;
+  max-height: 370px;
+  max-width: 290px;
+  opacity: 0.89;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 20px;
+  z-index: 1;
+  left: 20px;
+  contain: content;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-
-@media screen and (max-width: 600px){
-.cover-text-box {
-    
-      width: 40%;
+@media screen and (max-width: 600px) {
+  .cover-text-box {
+    width: 40%;
     height: 100%;
     padding-top: 5px;
     padding-left: 10px;
@@ -181,9 +173,8 @@ z-index: 0;
     left: 20px;
     contain: content;
     top: 30px;
+  }
 }
-}
-
 
 @media screen and (min-width: 601px) {
   .cover-text-box {
@@ -197,48 +188,43 @@ z-index: 0;
     z-index: 1;
     left: 20px;
     contain: content;
-   
-}
-}
-  
-
-
-@media screen and (max-width: 600px){
-.cover-text-box {
-    width: 40%;
-    height: 60%;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    contain: content;
-    top: 25px;
-}
-}
-
-  
-@media screen and (max-width: 320px) {
-  .cover-text-box{
-    width: 40%;
-    height: 60%;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    contain: content;
-    top: 25px;
-    
   }
 }
 
-@media screen and (min-width: 1200px){
-    .cover-text-box{
+@media screen and (max-width: 600px) {
+  .cover-text-box {
+    width: 40%;
+    height: 60%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+    top: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover-text-box {
+    width: 40%;
+    height: 60%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    contain: content;
+    top: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cover-text-box {
     width: 40%;
     height: 40%;
     padding-top: 5px;
@@ -250,82 +236,205 @@ z-index: 0;
     left: 20px;
     contain: content;
     bottom: 80px;
-    }
+  }
 }
 
-@media screen and (min-width: 601px){
-.cover-text-header, .cover-text-content {
+@media screen and (min-width: 601px) {
+  .cover-text-header,
+  .cover-text-content {
     font-size: 2.5vmin;
-}
+  }
 }
 
-@media screen and (min-width: 1200px){
-.cover-text-header, .cover-text-content {
+@media screen and (min-width: 1200px) {
+  .cover-text-header,
+  .cover-text-content {
     font-size: 4vmin;
-}
+  }
 }
 /* ---------------------- Block dividers */
 
-.block-divider{
-    width: 50%;
-    height: 2px;
-    background-color: #ffb444;
-    border: none;
+.block-divider {
+  width: 50%;
+  height: 2px;
+  background-color: #ffb444;
+  border: none;
 }
 
 /* ---------------------- / Block dividers */
 
 /* ----------------- Main Content */
 
-.container{
+.main-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container {
     width: 100%;
-    
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #fafafa;
     border: 1px solid #777;
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    position: relative;
-    padding:5px;
-    text-align:center;
-}
-
-.container div{
-    width: 100%;
     
-
-    text-align:center;
+    
 }
 
+.container h2{
+    color: #ffb444;
+}
 
+.why-japan {
+  background: url("../images/why-japan.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
 
+.the-views {
+  background: url("../images/views.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
+}
+
+.culture {
+  background: url("../images/culture.jpeg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
+}
+
+.things-to-do {
+  background: url("../images/things-to-do.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
+}
+
+.opaque-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+  clear: both;
+}
+
+.container:hover {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  animation-name: content-animation;
+  animation-duration: 0.25s;
+  border-bottom: 8px solid #ffb444;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+@keyframes content-animation{
+    0%   {border-bottom: 2px solid #ffffff;}
+    25%  {border-bottom: 3px solid #ecbb70;}
+    50%  {border-bottom: 4px solid #f1b964;}
+    100% {border-bottom: 5px solid #ffb444;}
+}
+
+@media screen and (min-width: 1200px){
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media screen and (min-width: 601px){
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media screen and (max-width: 320px){
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media screen and (max-width: 600px){
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media screen and (max-width: 601px){
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
 /* ------------------ Footer */
 
-.social-media{
-    text-align: center;
-    bottom: 5px;
-    padding: 0;
+.social-media {
+  text-align: center;
+  bottom: 5px;
+  padding: 0;
 }
 
-.social-media li{
-    display: inline;
-    text-decoration: none;
+.social-media li {
+  display: inline;
+  text-decoration: none;
 }
 
-.social-media i{
-    font-size: 160%;
-    letter-spacing: 0px;
-    padding: 45px;
-    margin: 1%;
-    text-decoration: none;
-    color: #777777;
-    bottom: 10px;
-
+.social-media i {
+  font-size: 160%;
+  letter-spacing: 0px;
+  padding: 45px;
+  margin: 1%;
+  text-decoration: none;
+  color: #777777;
+  bottom: 10px;
 }
-
-
 
 @media screen and (min-width: 601px) {
-  .social-media i{
+  .social-media i {
     font-size: 200%;
     letter-spacing: 0px;
     padding: 50px;
@@ -333,37 +442,35 @@ z-index: 0;
     text-decoration: none;
     color: #777777;
     bottom: 0px;
-}
+  }
 }
 
-
-@media screen and (max-width: 600px){
-.social-media i{
+@media screen and (max-width: 600px) {
+  .social-media i {
     font-size: 100%;
-    
+
     padding: 20px;
     margin: 1%;
     text-decoration: none;
     color: #777777;
     bottom: 10px;
-}
+  }
 }
 
-  
 @media screen and (max-width: 320px) {
-  .social-media i{
+  .social-media i {
     font-size: 100%;
-    
+
     padding: 15px;
     margin: 1%;
     text-decoration: none;
     color: #777777;
     bottom: 10px;
-}
+  }
 }
 
-@media screen and (min-width: 1200px){
-    .social-media i{
+@media screen and (min-width: 1200px) {
+  .social-media i {
     font-size: 160%;
     letter-spacing: 100px;
     padding: 45px;
@@ -371,27 +478,26 @@ z-index: 0;
     text-decoration: none;
     color: #777777;
     bottom: 10px;
-    }
+  }
 }
-
 
 /* ------------------------ Gallery */
 
 /* -------------------- ADD HOVER ANIMATIONS TO PICTURES DESCRIBING THEM */
 
-.images{
+.images {
   clear: both;
   line-height: 0;
   column-count: 4;
   column-gap: 0px;
 }
-.images img{
+.images img {
   width: 100%;
   border: 0.5px solid #fafafa;
 }
 
-@media screen and (max-width:800px){
-  .images{
-  column-count: 2;
+@media screen and (max-width: 800px) {
+  .images {
+    column-count: 2;
   }
 }
