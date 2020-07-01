@@ -54,6 +54,15 @@
             <li class="nav-item">
               <a class="nav-link" href="book-now.html">Book Now</a>
             </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="modal"
+                data-target="#newsletter"
+                >Newsletter</a
+              >
+            </li>
           </ul>
         </div>
       </nav>
@@ -75,7 +84,9 @@
     <hr class="block-divider" />
 
     <section class="main-content">
-      <div class="container container-fluid col-sm-12 col-md-12 col-12 nopadding">
+      <div
+        class="container container-fluid col-sm-12 col-md-12 col-12 nopadding"
+      >
         <div class="row">
           <div class="why-japan">
             <div class="opaque-overlay">
@@ -92,9 +103,9 @@
         </div>
       </div>
 
-      
-
-      <div class="container container-fluid col-sm-12 col-md-12 col-12 nopadding">
+      <div
+        class="container container-fluid col-sm-12 col-md-12 col-12 nopadding"
+      >
         <div class="row">
           <div class="the-views">
             <div class="opaque-overlay">
@@ -111,9 +122,9 @@
         </div>
       </div>
 
-      
-
-      <div class="container container-fluid col-sm-12 col-md-12 col-12 nopadding">
+      <div
+        class="container container-fluid col-sm-12 col-md-12 col-12 nopadding"
+      >
         <div class="row">
           <div class="culture img-fluid">
             <div class="opaque-overlay">
@@ -124,8 +135,6 @@
           </div>
         </div>
       </div>
-
-      
 
       <div class="container col-sm-12 col-md-12 col-12 nopadding">
         <div class="row">
@@ -189,37 +198,61 @@
       </div>
     </footer>
 
-    <!------------------------------- / Footer---------------------->
-    <div class="modal" tabindex="-1" role="dialog">
+    <!------------------------------ / Footer---------------------->
+
+    <div class="modal show" tabindex="-1" role="dialog" id="newsletter">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+            <h5 class="modal-title">
+              Would you like to be the first to hear about new and exciting
+              tourist attractions?
+            </h5>
             <button
               type="button"
               class="close"
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="false">&times;</span>
+              
             </button>
           </div>
           <div class="modal-body">
-            <p>Modal body text goes here.</p>
+            <p>Sign up to our newsletter!</p>
           </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter your email address here"
+              />
+            </div>
+
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                data-dismiss="modal"
+              >
+                Sign me up!
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
