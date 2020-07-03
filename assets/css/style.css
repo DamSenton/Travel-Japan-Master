@@ -337,15 +337,9 @@ nav li a:hover {
   padding-top: 15px;
 }
 
-.nopadding {
-  padding: 0 !important;
-  margin: 0 !important;
-  clear: both;
-}
 
 .container:hover {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  
   animation-name: content-animation;
   animation-duration: 0.25s;
   border-bottom: 8px solid #ffb444;
