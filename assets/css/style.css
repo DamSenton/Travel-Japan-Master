@@ -271,20 +271,18 @@ nav li a:hover {
 }
 
 .container {
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    color: #fafafa;
-    border: 1px solid #777;
-    
-    
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #fafafa;
+  border: 1px solid #777;
 }
 
-.container h2{
-    color: #ffb444;
+.container h2 {
+  color: #ffb444;
 }
 
 .why-japan {
@@ -354,61 +352,69 @@ nav li a:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-@keyframes content-animation{
-    0%   {border-bottom: 2px solid #ffffff;}
-    25%  {border-bottom: 3px solid #ecbb70;}
-    50%  {border-bottom: 4px solid #f1b964;}
-    100% {border-bottom: 5px solid #ffb444;}
+@keyframes content-animation {
+  0% {
+    border-bottom: 2px solid #ffffff;
+  }
+  25% {
+    border-bottom: 3px solid #ecbb70;
+  }
+  50% {
+    border-bottom: 4px solid #f1b964;
+  }
+  100% {
+    border-bottom: 5px solid #ffb444;
+  }
 }
 
-@media screen and (min-width: 1200px){
-.container {
+@media screen and (min-width: 1200px) {
+  .container {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-}
+  }
 }
 
-@media screen and (min-width: 601px){
-.container {
+@media screen and (min-width: 601px) {
+  .container {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-}
+  }
 }
 
-@media screen and (max-width: 320px){
-.container {
+@media screen and (max-width: 320px) {
+  .container {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-}
+  }
 }
 
-@media screen and (max-width: 600px){
-.container {
+@media screen and (max-width: 600px) {
+  .container {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-}
+  }
 }
 
-@media screen and (max-width: 601px){
-.container {
+@media screen and (max-width: 601px) {
+  .container {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-}
+  }
 }
 /* ------------------ Footer */
 
@@ -501,36 +507,62 @@ nav li a:hover {
     column-count: 2;
   }
 }
-.image-container{
-    position: relative;
-    width: 100%;
-    height: 100%;
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  contain: content;
+  overflow: hidden;
+
+
 }
 
-    .image-container .image-description {
-      
-      position: absolute;
-      height:20%;
-      width: 100%;
-      bottom: 0px;
-      left: 0px;
-      padding: 2px 0px;
-      visibility: hidden;
-      text-align: center;
-      font-weight: bold;
-      padding-top: 3vh;
-    }
+.image-description{
+    padding-top: 10%;
+    word-spacing: 2px;
+    padding-bottom: 10%;
+    font-size: 1vmin 3vmax;
+    white-space: pre;
+}
 
-    .image-container:hover .image-description {
-      opacity: 0.8;
-      background: #777;
-      font-family: "Oswald", sans-serif;
-      color: white;
-      visibility: visible;
-    }
+.image-container .image-description {
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  visibility: hidden;
+  text-align: center;
+  font-weight: bold;
+  
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1vmin 2vmax;
+  
+}
+
+.image-container:hover .image-description {
+  opacity: 0.8;
+  background: #777;
+  color: white;
+  visibility: visible;
+  transition: 0.7s;
+}
+
+.image-link{
+text-decoration: none;
+color: white;
+text-transform: none;
+}
+
+@media screen and (max-width: 700px){
+.image-container:hover .image-description{
+  display: none;
+}
+}
 
 /* -------------------- Modal */
 
-.form-group{
-    padding: 15px;
+.form-group {
+  padding: 15px;
 }
