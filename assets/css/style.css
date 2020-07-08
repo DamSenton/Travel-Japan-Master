@@ -20,7 +20,7 @@ h2 {
 
 .navbar {
   color: black;
-  text-align: left;
+  
   display: inline;
   text-decoration: none;
   list-style: none;
@@ -40,7 +40,9 @@ h2 {
 
 .logo {
   font-size: 5vmin;
+  float: left;
 }
+
 
 nav li a:hover {
   border-bottom: 1px solid #777;
@@ -158,6 +160,7 @@ nav li a:hover {
   contain: content;
   margin: 0 auto;
   overflow: hidden;
+  border-radius: 3px;
 }
 
 @media screen and (max-width: 600px) {
@@ -426,7 +429,8 @@ nav li a:hover {
 .social-media i {
   font-size: 160%;
   letter-spacing: 0px;
-  padding: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
   margin: 1%;
   text-decoration: none;
   color: #777777;
@@ -516,7 +520,7 @@ nav li a:hover {
     word-spacing: 2px;
     padding-bottom: 10%;
     font-size: 1vmin 3vmax;
-    white-space: pre;
+    
 }
 
 .image-container .image-description {
@@ -557,6 +561,31 @@ text-transform: none;
 
 /* -------------------- Modal */
 
-.form-group {
+.modal-form {
   padding: 15px;
+}
+
+/*------------------------------- Book Now - Form */
+
+.booking-page{
+    
+    background: url("../images/cherry-blossom.jpeg") center center no-repeat;
+    background-size: cover;
+}
+
+.book-now-form{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.btn-primary{
+    background-color: #ffb444 !important;
+    color: black !important;
+    border: none !important;
+}
+
+.btn-primary:hover{
+    background-color: #ecc282 !important;
 }
