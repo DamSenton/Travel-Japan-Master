@@ -73,7 +73,7 @@ nav li a:hover {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 35vh;
 
   position: relative;
   z-index: 0;
@@ -82,7 +82,7 @@ nav li a:hover {
 .hero-outer {
   overflow: hidden;
   width: 100%;
-  height: 400px;
+  height: 35vh;
   position: relative;
   z-index: 0;
 }
@@ -117,7 +117,7 @@ nav li a:hover {
   }
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (max-width: 570px) {
   .hero-image,
   .hero-outer {
     height: 25vh;
@@ -592,8 +592,13 @@ text-transform: none;
 
 /* -------------------- Modal */
 
-.modal-form {
-  padding: 15px;
+.modal-form, .modal-body {
+  padding: 0 15px 0 15px;
+}
+
+.modal-header, .modal-body, .modal-form, .modal-footer{
+    background-color: #ffb444;
+    color: black;
 }
 
 /*------------------------------- Book Now - Form */
