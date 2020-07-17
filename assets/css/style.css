@@ -313,7 +313,7 @@ nav li a:hover {
   margin-left: auto;
   text-align: center;
   color: #fafafa;
-  border: 1px solid #777;
+  
 }
 
 .container h2 {
@@ -322,7 +322,7 @@ nav li a:hover {
 
 .why-japan {
   background: url("../images/why-japan.jpg") center center no-repeat;
-  background-size: cover;
+  height: 50%;
   overflow: hidden;
   background-position: center;
   margin: 0 auto;
@@ -360,51 +360,6 @@ nav li a:hover {
   width: 100%;
 }
 
-.opaque-overlay {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 1;
-  margin: 0 auto;
-  padding-top: 15px;
-}
-
-
-.container:hover {
-  
-  animation-name: content-animation;
-  animation-duration: 0.25s;
-  border-bottom: 8px solid #ffb444;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-@keyframes content-animation {
-  0% {
-    border-bottom: 2px solid #ffffff;
-  }
-  25% {
-    border-bottom: 3px solid #ecbb70;
-  }
-  50% {
-    border-bottom: 4px solid #f1b964;
-  }
-  100% {
-    border-bottom: 5px solid #ffb444;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
 
 @media screen and (min-width: 601px) {
   .container {
