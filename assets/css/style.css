@@ -18,33 +18,31 @@ h2 {
 
 /* ----------------- Header / Nav-Bar */
 
-.container-fluid .modal-alert-container .col-12{
-    padding-left: 0;
-    padding-right: 0;
-    min-width: 100%;
-    text-align: center;
+.container-fluid .modal-alert-container .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+  min-width: 100%;
+  text-align: center;
 }
 
-.modal-nopadding{
-    padding: 0 !important;
+.modal-nopadding {
+  padding: 0 !important;
 }
 
-.newsletter-alert{
-    margin-bottom: 0;
-    border-radius: 0px;
-
+.newsletter-alert {
+  margin-bottom: 0;
+  border-radius: 0px;
 }
 
 .navbar {
   color: black;
-  
+
   text-decoration: none;
   list-style: none;
   font-size: 20px;
   line-height: 75px;
   padding: 0;
   margin: 0;
-  
 }
 
 .navbar-light .navbar-toggler {
@@ -59,7 +57,6 @@ h2 {
   font-size: 5vmin;
   float: left;
 }
-
 
 nav li a:hover {
   border-bottom: 1px solid #777;
@@ -170,7 +167,6 @@ nav li a:hover {
   }
 }
 
-
 .cover-text-box {
   background-color: #ffb444;
   width: 40%;
@@ -268,9 +264,8 @@ nav li a:hover {
     left: 20px;
     contain: content;
     bottom: 50px;
-}
   }
-
+}
 
 @media screen and (max-width: 1024px) {
   .cover-text-header,
@@ -278,8 +273,6 @@ nav li a:hover {
     font-size: 3vmin;
   }
 }
-
-
 
 @media screen and (min-width: 1200px) {
   .cover-text-header,
@@ -313,7 +306,6 @@ nav li a:hover {
   margin-left: auto;
   text-align: center;
   color: #fafafa;
-  
 }
 
 .container h2 {
@@ -321,12 +313,18 @@ nav li a:hover {
 }
 
 .why-japan {
-  background: url("../images/why-japan.jpg") center center no-repeat;
   height: 50%;
-  overflow: hidden;
-  background-position: center;
   margin: 0 auto;
   padding: 0;
+  width: 100%;
+  color: black;
+  background: white;
+}
+
+.why-japan-image {
+  background-image: url("../assets/css/images/why-japan.jpg");
+  background-position: center;
+  height: auto;
   width: 100%;
 }
 
@@ -359,7 +357,6 @@ nav li a:hover {
   padding: 0;
   width: 100%;
 }
-
 
 @media screen and (min-width: 601px) {
   .container {
@@ -402,9 +399,9 @@ nav li a:hover {
 }
 /* ------------------ Footer */
 
-footer ul{
-    bottom: 5px;
-    margin: 0;
+footer ul {
+  bottom: 5px;
+  margin: 0;
 }
 
 .social-media {
@@ -503,16 +500,13 @@ footer ul{
   height: 100%;
   contain: content;
   overflow: hidden;
-
-
 }
 
-.image-description{
-    padding-top: 10%;
-    word-spacing: 2px;
-    padding-bottom: 10%;
-    font-size: 1vmin 3vmax;
-    
+.image-description {
+  padding-top: 10%;
+  word-spacing: 2px;
+  padding-bottom: 10%;
+  font-size: 1vmin 3vmax;
 }
 
 .image-container .image-description {
@@ -524,11 +518,10 @@ footer ul{
   visibility: hidden;
   text-align: center;
   font-weight: bold;
-  
+
   color: white;
   font-family: "Lato", sans-serif;
   font-size: 1vmin 2vmax;
-  
 }
 
 .image-container:hover .image-description {
@@ -539,56 +532,52 @@ footer ul{
   transition: 0.7s;
 }
 
-.image-link{
-text-decoration: none;
-color: white;
-text-transform: none;
+.image-link {
+  text-decoration: none;
+  color: white;
+  text-transform: none;
 }
 
-@media screen and (max-width: 1366px){
-.image-container:hover .image-description{
-  display: none;
-}
+@media screen and (max-width: 1366px) {
+  .image-container:hover .image-description {
+    display: none;
+  }
 }
 
 /* -------------------- Modal */
 
-.modal-form, .modal-body {
+.modal-form,
+.modal-body {
   padding: 0 15px 0 15px;
 }
 
-
 /*------------------------------- Book Now - Form */
 
-.booking-page{
-    
-    background: url("../images/cherry-blossom.jpeg") center center no-repeat;
-    background-size: cover;
-    align-items: center;
-    
+.booking-page {
+  background: url("../images/cherry-blossom.jpeg") center center no-repeat;
+  background-size: cover;
+  align-items: center;
 }
 
-.book-now-form{
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 5px;
-    border-radius: 3px;
-    text-align: center;
-    align-items: center;
-    
-    
+.book-now-form {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  align-items: center;
 }
 
-.radio-buttons{
-   text-align: left;
+.radio-buttons {
+  text-align: left;
 }
 
-.btn-primary{
-    background-color: #ffb444 !important;
-    color: black !important;
-    border: none !important;
+.btn-primary {
+  background-color: #ffb444 !important;
+  color: black !important;
+  border: none !important;
 }
 
-.btn-primary:hover{
-    background-color: #ecc282 !important;
+.btn-primary:hover {
+  background-color: #ecc282 !important;
 }
