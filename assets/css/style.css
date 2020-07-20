@@ -564,6 +564,8 @@ text-transform: none;
     
     background: url("../images/cherry-blossom.jpeg") center center no-repeat;
     background-size: cover;
+    align-items: center;
+    
 }
 
 .book-now-form{
@@ -571,6 +573,14 @@ text-transform: none;
     color: white;
     padding: 5px;
     border-radius: 3px;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+.radio-buttons{
+   text-align: left;
 }
 
 .btn-primary{
