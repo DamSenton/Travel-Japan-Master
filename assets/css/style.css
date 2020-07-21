@@ -313,32 +313,55 @@ nav li a:hover {
 }
 
 .why-japan {
-  height: 50%;
-  margin: 0 auto;
+  color: black;
+  margin-top: 15px;
   padding: 0;
   width: 100%;
-  color: black;
-  background: white;
-}
-
-.why-japan-image {
-  background-image: url("../assets/css/images/why-japan.jpg");
-  background-position: center;
   height: auto;
-  width: 100%;
+  font-size: 3vmin;
 }
 
-.the-views {
-  background: url("../images/views.jpg") center center no-repeat;
+.why-japan-image{
+  background: url("../images/why-japan.jpg")center center no-repeat;
   background-size: cover;
   overflow: hidden;
   background-position: center;
   margin-top: 15px;
   padding: 0;
   width: 100%;
+  height: 30vh;
+}
+
+.the-views {
+color: black;
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  font-size: 3vmin;
+}
+
+.the-views-image{
+   background: url("../images/views.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
+  height: 30vh;
 }
 
 .culture {
+  color: black;
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  font-size: 3vmin;
+}
+
+.culture-image{
   background: url("../images/culture.jpeg") center center no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -346,16 +369,37 @@ nav li a:hover {
   margin-top: 15px;
   padding: 0;
   width: 100%;
+  height: 30vh;    
 }
 
 .things-to-do {
-  background: url("../images/things-to-do.jpg") center center no-repeat;
-  background-size: cover;
+  color: black;
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  font-size: 3vmin;
+}
+
+.things-to-do-image{
+     background: url("../images/things-to-do.jpg") center center no-repeat;
+   background-size: cover;
   overflow: hidden;
   background-position: center;
   margin-top: 15px;
   padding: 0;
   width: 100%;
+  height: 30vh;  
+}
+
+.opaque-overlay{
+     position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
 }
 
 @media screen and (min-width: 601px) {
