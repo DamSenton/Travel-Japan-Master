@@ -25,23 +25,12 @@ h2 {
   text-align: center;
 }
 
-.modal-nopadding {
-  padding: 0 !important;
-}
-
- .alert{
-  margin-bottom: 0 !important;
-  border-radius: 0px;
-  padding-bottom: 0;
-}
-
 .navbar {
   color: black;
-position: relative;
+  position: relative;
   text-decoration: none;
   list-style: none;
   font-size: 20px;
-  
   padding: 0;
   margin: 0;
 }
@@ -79,12 +68,12 @@ nav li a:hover {
 }
 
 .hero-outer {
+    margin-top: 75px;
   overflow: hidden;
   width: 100%;
   height: 35vh;
   position: relative;
   z-index: 0;
-  
 }
 
 @media screen and (max-width: 1200px) {
@@ -125,7 +114,6 @@ nav li a:hover {
     position: relative;
     z-index: 0;
     padding-bottom: 15%;
-   
   }
 }
 
@@ -153,6 +141,15 @@ nav li a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .cover-text-header,
+  .cover-text-content,
+  .content-header,
+  .cover-text-box {
+    font-size: 3vmin;
+  }
+}
+
+@media screen and (min-width: 601px) {
   .cover-text-header,
   .cover-text-content,
   .content-header,
@@ -235,7 +232,7 @@ nav li a:hover {
     left: 20px;
     contain: content;
     top: 30px;
-   margin-top: 35px;
+    margin-top: 35px;
   }
 }
 
@@ -312,7 +309,6 @@ nav li a:hover {
   text-align: center;
   color: #fafafa;
   z-index: 1;
-  
 }
 
 .container h2 {
@@ -328,15 +324,14 @@ nav li a:hover {
   font-size: 3vmin;
 }
 
-.why-japan-image{
-  background: url("../images/why-japan.jpg")center center no-repeat;
+.why-japan-image {
+  background: url("../images/why-japan.jpg") center center no-repeat;
   background-size: cover;
   overflow: hidden;
   background-position: center;
   padding: 0;
   width: 100%;
   height: 30vh;
- 
 }
 
 .the-views {
@@ -348,7 +343,7 @@ nav li a:hover {
   font-size: 3vmin;
 }
 
-.the-views-image{
+.the-views-image {
   background: url("../images/views.jpg") center center no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -357,7 +352,6 @@ nav li a:hover {
   width: 100%;
   height: 30vh;
   position: relative;
-  
 }
 
 .culture {
@@ -366,19 +360,17 @@ nav li a:hover {
   width: 100%;
   height: auto;
   font-size: 3vmin;
-  
 }
 
-.culture-image{
+.culture-image {
   background: url("../images/culture.jpeg") center center no-repeat;
   background-size: cover;
   overflow: hidden;
   background-position: center;
   padding: 0;
   width: 100%;
-  height: 30vh;    
+  height: 30vh;
   position: relative;
-  
 }
 
 .things-to-do {
@@ -390,19 +382,18 @@ nav li a:hover {
   font-size: 3vmin;
 }
 
-.things-to-do-image{
+.things-to-do-image {
   background: url("../images/things-to-do.jpg") center center no-repeat;
   background-size: cover;
   overflow: hidden;
   background-position: center;
   padding: 0;
   width: 100%;
-  height: 30vh;  
+  height: 30vh;
   position: relative;
-  
 }
 
-.opaque-overlay{
+.opaque-overlay {
   margin: 0;
   top: 0;
   left: 0;
@@ -413,7 +404,6 @@ nav li a:hover {
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 2;
   position: relative;
-  
 }
 
 @media screen and (min-width: 601px) {
@@ -456,6 +446,10 @@ nav li a:hover {
   }
 }
 /* ------------------ Footer */
+
+footer{
+    margin-top: 20px;
+}
 
 footer ul {
   bottom: 5px;
@@ -534,38 +528,43 @@ footer ul {
 
 /* ------------------------ Copyright */
 
-.copyright{
-    text-align: center;
+.copyright {
+  text-align: center;
 }
 
 /* ------------------------ Gallery */
 
 /* -------------------- ADD HOVER ANIMATIONS TO PICTURES DESCRIBING THEM */
 
-.images {
+.image-gallery {
   clear: both;
   line-height: 0;
-  column-count: 3;
+  column-count: 4;
   column-gap: 0px;
   flex-flow: column wrap;
   max-width: 100%;
-  
+  margin-top: 70px;
 }
-.images img {
+
+.image-gallery img {
   width: 100%;
   border: 0.5px solid #fafafa;
   max-height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 800px) {
-  .images {
+  .image-gallery {
     column-count: 2;
   }
 }
 .image-container {
   position: relative;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   contain: content;
   overflow: hidden;
 }
@@ -625,6 +624,7 @@ footer ul {
   background: url("../images/cherry-blossom.jpeg") center center no-repeat;
   background-size: cover;
   align-items: center;
+
 }
 
 .book-now-form {
@@ -634,6 +634,19 @@ footer ul {
   border-radius: 3px;
   text-align: center;
   align-items: center;
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 800px){
+.book-now-form {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 55px;
+  border-radius: 3px;
+  text-align: center;
+  align-items: center;
+  margin-top: 70px;
+}
 }
 
 .radio-buttons {
