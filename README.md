@@ -4,7 +4,7 @@
 
 The project is an in-depth travel guide for Japan, and also provides a gallery of some personal photgraphs to highlight some of my favourite places in Japan.
 
-! [Responsive Design]()
+! [Responsive Design](/assets/images/README.PNG)
 <hr>
 
 ## UX
