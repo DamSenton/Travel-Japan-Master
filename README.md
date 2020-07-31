@@ -128,6 +128,8 @@ but I would like to implement this, but will unfortunately not be able to withou
 
 - All of the code for this project was written by myself, with the exception of the animations for the Gallery Images, in which I took inspiration from CoreLangs.com. This code is free to use for learning purposes.
 
+* The image used for the 'Attraction of the Month' section was taken from [Takuma Mori](https://www.flickr.com/photos/takuma104/) on Flickr. I am free to use and distribute this with the proper credit.
+
 ### Content
 
 - All of the articles on this page were concieved entirely by myself.
