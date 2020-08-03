@@ -67,6 +67,8 @@ up with any new information posted on the website.
 
 * The gallery page employs some animations which, when hovered over, provide the user with small descriptions about each image.
 
+![Gallery Animation](https://media.giphy.com/media/jnnRAacHmtXqS6b58W/giphy.gif)
+
 * The booking page is laid out in a way that is visually appealing on all screen sizes.
 the form on this page allows users to build the type of holiday they want, and then they can receive an email which provides them with various options.
 
