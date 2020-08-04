@@ -126,17 +126,12 @@ but I would like to implement this, but will unfortunately not be able to withou
 
 ## Credits
 
-- This project was inspired by a lot of travel websites and also the mini projects completed alongside The Code Institute.
-
-- All of the code for this project was written by myself, with the exception of the animations for the Gallery Images, in which I took inspiration from CoreLangs.com. This code is free to use for learning purposes.
-
-* The image used for the 'Attraction of the Month' section was taken from [Takuma Mori](https://www.flickr.com/photos/takuma104/) on Flickr. I am free to use and distribute this with the proper credit.
 
 ### Content
 
 - All of the articles on this page were concieved entirely by myself.
 
-- The web page layout takes inspirtaion from multiple Code Institute projects. I have taken elements from almost each project and repurposed them to fit my web page.
+- All of the code for this project was written by myself, with the exception of the animations for the Gallery Images, in which I took inspiration from CoreLangs.com. This code is free to use for learning purposes.
 
 ### Media
 
@@ -144,4 +139,10 @@ but I would like to implement this, but will unfortunately not be able to withou
 
 - All of the images on the 'Gallery' page were taken by myself while on a personal trip to Japan and uploaded to [https://Imgur.com] to enable me to embed them on this page.
 
+* The image used for the 'Attraction of the Month' section was taken from [Takuma Mori](https://www.flickr.com/photos/takuma104/) on Flickr. I am free to use and distribute this with the proper credit.
+
 ### Acknowledgments
+
+*  The web page layout takes inspirtaion from multiple Code Institute projects. I have taken elements from almost each project and repurposed them to fit my web page.
+ 
+*  This project was inspired by a lot of travel websites and also the mini projects completed alongside The Code Institute.

@@ -614,6 +614,9 @@ footer ul {
   color: white;
   visibility: visible;
   transition: 0.7s;
+  -moz-transition: all 0.7s;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
 }
 
 .image-link {
