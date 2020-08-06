@@ -122,6 +122,19 @@ but I would like to implement this, but will unfortunately not be able to withou
 
 ## Deployment
 
+* I developed Travel Japan on GitPod and used GitHub and GIT commands to commit and push all code to this repository.
+
+* To make my code usabel for others, I had to create a GitHub profile, I then created a new repository using the on-screen instructions. When setting up my repository, 
+I utilized the Code Institute template which provides basic boiler text.
+
+* Once my code was written, and pushed to GitHub, I opened up my GitHub profile and navigated to the settings in my repository.
+
+* From the settings, I scrolled down to the GiyHub Pages sectoin and selected the *Master Branch* source.
+
+* With these settings confirmed, the page is now live on GitHub Pages, and free to view by all in a web browser.
+
+* Any users wishing to view this code, or if they would like to use it for inspiration, they can do so on [My GitHub Page](https://github.com/DamSenton/Travel-Japan-Master).
+
 <hr>
 
 ## Credits
