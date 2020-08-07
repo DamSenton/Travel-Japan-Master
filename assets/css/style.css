@@ -53,6 +53,16 @@ nav li a:hover {
   border-bottom: 1px solid #777;
 }
 
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    font-size: 2vh;
+}
+}
+
 /* ----------------- Hero Image */
 .hero-image {
   background: url("../images/main-hero-image.jpg") no-repeat center center;
@@ -69,7 +79,7 @@ nav li a:hover {
 }
 
 .hero-outer {
-    margin-top: 75px;
+  margin-top: 50px;
   overflow: hidden;
   width: 100%;
   height: 35vh;
@@ -121,7 +131,7 @@ nav li a:hover {
 @media screen and (min-width: 1000px) {
   .hero-image,
   .hero-outer {
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     position: relative;
     z-index: 0;
@@ -186,11 +196,11 @@ nav li a:hover {
   max-height: 370px;
   max-width: 290px;
   opacity: 0.89;
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-bottom: 10px;
-  position: relative;
+  position: absolute;
   bottom: 20px;
   z-index: 1;
   left: 20px;
@@ -200,7 +210,7 @@ nav li a:hover {
   border-radius: 3px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .cover-text-box {
     width: 40%;
     height: auto;
@@ -212,7 +222,8 @@ nav li a:hover {
     z-index: 1;
     left: 20px;
     contain: content;
-    top: 30px;
+    bottom: 15%;
+    margin-top: 25px;
   }
 }
 
@@ -231,7 +242,9 @@ nav li a:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (min-width: 320px) {
   .cover-text-box {
     width: 40%;
     height: auto;
@@ -243,28 +256,13 @@ nav li a:hover {
     z-index: 1;
     left: 20px;
     contain: content;
-    top: 30px;
-    margin-top: 25px;
+    bottom: 15%;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .cover-text-box {
-    width: 40%;
-    height: auto;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    position: absolute;
-    z-index: 1;
-    left: 20px;
-    contain: content;
-    top: 25px;
-  }
-}
 
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 2201px){
   .cover-text-box {
     width: 50%;
     height: auto;
@@ -274,13 +272,13 @@ nav li a:hover {
     padding-bottom: 5px;
     position: absolute;
     z-index: 1;
-    left: 20px;
+    left: 50px;
     contain: content;
-    bottom: 50px;
+    bottom: 150px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .cover-text-header,
   .cover-text-content {
     font-size: 3vmin;
@@ -291,6 +289,13 @@ nav li a:hover {
   .cover-text-header,
   .cover-text-content {
     font-size: 3vmin;
+  }
+}
+
+@media screen and (min-width: 2201px){
+    .cover-text-header,
+  .cover-text-content{
+      font-size: 2vmin;
   }
 }
 /* ---------------------- Block dividers */
