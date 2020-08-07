@@ -6,7 +6,7 @@ The project is an in-depth travel guide for Japan, and also provides a gallery o
 
 This websiet also provides the user with a mock-up booking form, in which they can select from various options to build their own holiday, and recieve a personalised holiday quote back.
 
-![Responsive Design](/assets/images/responsive-design.PNG)
+![Responsive Design](/assets/images/responsive-designs.PNG)
 
 <hr>
 
