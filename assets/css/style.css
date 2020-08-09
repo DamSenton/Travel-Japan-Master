@@ -474,11 +474,7 @@ nav li a:hover {
 .mt-auto, .my-auto{
     background-color: #e0dfdf;
     bottom: 0 !important;
-}
-
-.footer{
-    padding: 10px;
-    position: absolute !important;
+    position: relative;
     width: 100%;
 }
 
