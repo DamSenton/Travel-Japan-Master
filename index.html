@@ -18,6 +18,7 @@
 <body class="h-100">
 	<!------------------------Header------------------------>
 	<header>
+    
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top col-12">
 			<a class="navbar-brand" href="index.html">
 				<h2 class="logo">Travel Japan <i class="fas fa-globe-asia"></i></h2>
@@ -48,6 +49,7 @@
 			</div>
 		</nav>
 	</header>
+    
 	<!----------------------------- / Header----------------------------->
 	<!----------------------------- Hero Image------------------------>
 	<section class="hero-outer">
@@ -56,15 +58,27 @@
 			<h2 class="cover-text-header">Travel Japan</h2>
 			<h3 class="cover-text-content">
 				Explore the endless possibilities that await you in Japan.
-			</h3>
+                </h3>
+                
+                <h6 class="cover-text-modal">Would you like to be the first to hear about any new and exciting deals?</h6>
+                <button
+                class="btn btn-light modal-button"
+                data-toggle="modal"
+                data-target="#newsletter"
+              >
+                Sign up to our newsletter!
+              </button>
+			
 		</div>
 	</section>
 	<!----------------------------- Main Content---------------------->
 	<hr class="block-divider" />
 	<section class="main-content">
+
+    <section class="why-japan-section">
 		<div class="container container-fluid col-12 nopadding">
 			<div class="row">
-				<div class="why-japan">
+				<div class="why-japan-content">
 					<h2 class="content-header">
 						Why Japan? <i class="fas fa-question"></i>
 					</h2>
@@ -80,6 +94,9 @@
 				</div>
 			</div>
 		</div>
+    </section>
+
+    <section class="japan-image-section">
 		<div class="container container-fluid col-12 nopadding">
 			<div class="row">
 				<div class="why-japan-image">
@@ -88,7 +105,11 @@
 				</div>
 			</div>
 		</div>
+    </section>
+
 		<hr class="block-divider">
+
+        <section class="views-section">
 		<div class="container container-fluid col-12 nopadding">
 			<div class="row">
 				<div class="the-views">
@@ -103,6 +124,9 @@
 				</div>
 			</div>
 		</div>
+        </section>
+
+        <section class="views-image-section">
 		<div class="container container-fluid col-12 nopadding">
 			<div class="row">
 				<div class="the-views-image">
@@ -111,7 +135,11 @@
 				</div>
 			</div>
 		</div>
+        </section>
+
 		<hr class="block-divider">
+
+        <section class="attraction-section">
 		<div class="container container-fluid col-12 nopadding">
 			<div class="row">
 				<div class="attraction">
@@ -125,6 +153,9 @@
 				</div>
 			</div>
 		</div>
+        </section>
+
+	<section class="attraction-image-section">
 		<div class="container container-fluid col-12 nopadding">
 			<div class="row">
 				<div class="attraction-image">
@@ -135,9 +166,10 @@
 		</div>
 		<hr class="block-divider">
 	</section>
+	</section>
 	<!------------------------------ / Main Content-------------------->
 	<!------------------------------ Footer----------------------------->
-	<footer class="mt-auto py-3 col-12">
+	<footer class="mt-auto py-3">
 		<div class="footer-container">
 			<ul class="social-media">
 				<li>
@@ -162,7 +194,7 @@
 		</div>
 	</footer>
 	<!------------------------------ / Footer---------------------->
-	<div class="modal show" tabindex="-1" role="dialog" id="newsletter">
+	<div class="modal fade" tabindex="-1" role="dialog" id="newsletter">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -176,12 +208,10 @@
                      aria-label="Close"
                      ></button>
 				</div>
-				<div class="modal-body">
-					<p>Sign up below</p>
-				</div>
+				
 				<form>
 					<div class="modal-form">
-						<label for="exampleInputEmail1">Email address</label>
+						<label for="exampleInputEmail1">Sign up below:</label>
 						<input
                         type="email"
                         class="form-control"
@@ -219,9 +249,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
-	<script>
-		$('#newsletter').modal('show');
-	</script>
+	
 </body>
 
 </html>

@@ -8,11 +8,17 @@ body {
   margin: 0;
 }
 
+
 h2 {
   font-family: Oswald;
   text-transform: uppercase;
   color: #000000;
 }
+
+h6{
+    font-size: 2vmin !important;
+}
+
 
 /* ---------------- Website colours */
 
@@ -26,7 +32,6 @@ h2 {
 }
 
 .navbar {
-  color: black;
   position: relative;
   text-decoration: none;
   list-style: none;
@@ -36,17 +41,20 @@ h2 {
   background-color: #e0dfdf;
 }
 
+
+
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
+  color: black;
   border: none;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(111, 103, 103, 0.5);
+  color: white;
 }
 
 .logo {
   font-size: 5vmin;
   float: left;
+  color: black;
 }
 
 nav li a:hover {
@@ -59,30 +67,30 @@ nav li a:hover {
     display: flex!important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 }
 
 /* ----------------- Hero Image */
 .hero-image {
-  background: url("../images/main-hero-image.jpg") no-repeat center center;
+  background: url("../images/hero-image-BW.jpg") no-repeat center center;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 35vh;
+  height: 80vh;
 
   position: relative;
   z-index: 0;
 }
 
 .hero-outer {
-  margin-top: 50px;
+  
   overflow: hidden;
   width: 100%;
-  height: 35vh;
+  height: 80vh;
   position: relative;
   z-index: 0;
 }
@@ -90,7 +98,7 @@ nav li a:hover {
 @media screen and (max-width: 1200px) {
   .hero-image,
   .hero-outer {
-    height: 20vh;
+    
     width: 100%;
     position: relative;
     z-index: 0;
@@ -100,7 +108,7 @@ nav li a:hover {
 @media screen and (max-width: 600px) {
   .hero-image,
   .hero-outer {
-    height: 25vh;
+    
     width: 100%;
     position: relative;
     z-index: 0;
@@ -110,7 +118,7 @@ nav li a:hover {
 @media screen and (max-width: 320px) {
   .hero-image,
   .hero-outer {
-    height: 20vh;
+    
     width: 100%;
     position: relative;
     z-index: 0;
@@ -120,7 +128,7 @@ nav li a:hover {
 @media screen and (max-width: 570px) {
   .hero-image,
   .hero-outer {
-    height: 25vh;
+    
     width: 100%;
     position: relative;
     z-index: 0;
@@ -131,7 +139,7 @@ nav li a:hover {
 @media screen and (min-width: 1000px) {
   .hero-image,
   .hero-outer {
-    height: 30vh;
+   
     width: 100%;
     position: relative;
     z-index: 0;
@@ -151,13 +159,15 @@ nav li a:hover {
   color: #fafafa;
   font-family: Oswald;
   position: relative;
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover-text-header,
   .cover-text-content,
   .content-header,
-  .cover-text-box {
+  .cover-text-box{
+
     font-size: 2.5vmin;
   }
 }
@@ -166,7 +176,7 @@ nav li a:hover {
   .cover-text-header,
   .cover-text-content,
   .content-header,
-  .cover-text-box {
+  .cover-text-box{
     font-size: 3vmin;
   }
 }
@@ -175,7 +185,7 @@ nav li a:hover {
   .cover-text-header,
   .cover-text-content,
   .content-header,
-  .cover-text-box {
+  .cover-text-box{
     font-size: 3vmin;
   }
 }
@@ -184,7 +194,7 @@ nav li a:hover {
   .cover-text-header,
   .cover-text-content,
   .content-header,
-  .cover-text-box {
+  .cover-text-box{
     font-size: 3.5vmin;
   }
 }
@@ -196,12 +206,9 @@ nav li a:hover {
   max-height: 370px;
   max-width: 290px;
   opacity: 0.89;
-  padding-top: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 10px;
+  padding: 10px;
   position: absolute;
-  bottom: 20px;
+  bottom: 50%;
   z-index: 1;
   left: 20px;
   contain: content;
@@ -214,15 +221,12 @@ nav li a:hover {
   .cover-text-box {
     width: 40%;
     height: auto;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     position: absolute;
     z-index: 1;
     left: 20px;
     contain: content;
-    bottom: 15%;
+    bottom: 50%;
     margin-top: 25px;
   }
 }
@@ -231,10 +235,7 @@ nav li a:hover {
   .cover-text-box {
     width: 40%;
     height: auto;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     position: absolute;
     z-index: 1;
     left: 20px;
@@ -248,15 +249,12 @@ nav li a:hover {
   .cover-text-box {
     width: 40%;
     height: auto;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    padding: 10px;
     position: absolute;
     z-index: 1;
     left: 20px;
     contain: content;
-    bottom: 15%;
+    bottom: 30%;
   }
 }
 
@@ -266,10 +264,7 @@ nav li a:hover {
   .cover-text-box {
     width: 50%;
     height: auto;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    padding: 10px;
     position: absolute;
     z-index: 1;
     left: 50px;
@@ -298,6 +293,19 @@ nav li a:hover {
       font-size: 2vmin;
   }
 }
+
+.btn-light{
+    font-size: 2.3vmin !important;
+    background-color: #e0dfdf !important;
+    border: none !important;
+    color: #747474 !important;
+}
+
+.btn-light:hover{
+    background-color: #747474 !important;
+    color: #e0dfdf !important;
+}
+
 /* ---------------------- Block dividers */
 
 .block-divider {
@@ -319,12 +327,12 @@ nav li a:hover {
 
 .container {
   width: 100%;
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 50px;
+  padding-left: 50px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  color: #fafafa;
+  
   z-index: 1;
 }
 
@@ -332,13 +340,20 @@ nav li a:hover {
   color: #ffb444;
 }
 
-.why-japan {
+
+.why-japan-content {
   color: black;
   margin-top: 15px;
-  padding: 0;
+  padding: 30px;
   width: 100%;
   height: auto;
-  font-size: 3vmin;
+  font-size: 2.5vmin;
+  text-align: center;
+}
+
+.japan-image-section{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .why-japan-image {
@@ -354,10 +369,11 @@ nav li a:hover {
 .the-views {
   position: relative;
   color: black;
-  padding: 0;
+  padding: 30px;
   width: 100%;
   height: auto;
-  font-size: 3vmin;
+  font-size: 2.5vmin;
+  text-align: center;
 }
 
 .the-views-image {
@@ -371,12 +387,18 @@ nav li a:hover {
   position: relative;
 }
 
+.views-image-section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .attraction {
   color: black;
-  padding: 0;
+  padding: 30px;
   width: 100%;
   height: auto;
-  font-size: 3vmin;
+  font-size: 2.5vmin;
+  text-align: center;
 }
 
 .attraction-image {
@@ -390,24 +412,9 @@ nav li a:hover {
   position: relative;
 }
 
-.things-to-do {
-  color: black;
-  margin-top: 15px;
-  padding: 0;
-  width: 100%;
-  height: auto;
-  font-size: 3vmin;
-}
-
-.things-to-do-image {
-  background: url("../images/things-to-do.jpg") center center no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  background-position: center;
-  padding: 0;
-  width: 100%;
-  height: 30vh;
-  position: relative;
+.attraction-image-section{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .opaque-overlay {
@@ -466,12 +473,13 @@ nav li a:hover {
 
 .mt-auto, .my-auto{
     background-color: #e0dfdf;
+    bottom: 0 !important;
 }
 
 .footer{
     padding: 10px;
-    bottom: 0;
-   
+    position: absolute !important;
+    width: 100%;
 }
 
 footer ul {
@@ -640,7 +648,23 @@ footer ul {
 
 .modal-form,
 .modal-body {
-  padding: 0 15px 0 15px;
+  padding: 0 10px 0 15px;
+}
+
+.modal-header{
+    border-bottom: none !important;
+}
+
+.modal-body p{
+    margin-bottom: 0;
+}
+
+.modal-form label{
+    padding-bottom: 10px;
+}
+
+.modal-content{
+    background-color: #ffeec4  !important;
 }
 
 /*------------------------------- Book Now - Form */
@@ -655,22 +679,23 @@ footer ul {
 .book-now-form {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 5px;
+  padding: 20px;
   border-radius: 3px;
   text-align: center;
   align-items: center;
   margin-top: 60px;
+ 
 }
 
 @media screen and (min-width: 800px){
 .book-now-form {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 55px;
+  padding: 20px;
   border-radius: 3px;
   text-align: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 }
 

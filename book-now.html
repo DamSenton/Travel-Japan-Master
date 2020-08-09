@@ -42,17 +42,17 @@
          <form class="book-now-form">
             <div class="container">
                <div class="row">
-                  <div class="form-group col-12">
+                  <div class="form-group col-md-6 col-lg-6 col-sm-12">
                      <label for="first-name">First Name</label>
                      <input type="text" class="form-control" id="first-name" placeholder="Enter your first name here" required>
                   </div>
-                  <div class="form-group col-12">
+                  <div class="form-group col-md-6 col-lg-6 col-sm-12">
                      <label for="last-name">Last Name</label>
                      <input type="text" class="form-control" id="last-name" placeholder="Enter your last name here" required>
                   </div>
                </div>
                <div class="form-row">
-                  <div class="form-group col-6">
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12">
                      <label for="where-to-go">Where would you like to travel to?</label>
                      <select id="where-to-go" class="form-control">
                         <option selected>Destination</option>
@@ -63,7 +63,7 @@
                         <option>Tokyo</option>
                      </select>
                   </div>
-                  <div class="form-group col-6">
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12">
                      <label for="fly-from">Where would you like to fly from?</label>
                      <select id="fly-from" class="form-control">
                         <option selected>Airport</option>
@@ -76,11 +76,11 @@
                   </div>
                </div>
                <div class="form-row">
-                  <div class="form-group col-6">
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12">
                      <label for="preferred-date">Departure Date</label>
                      <input type="date" class="form-control" id="preferred-date" required>
                   </div>
-                  <div class="form-group col-6">
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12">
                      <label for="return-date">Date of return:</label>
                      <input type="date" class="form-control" id="return-date" required>
                   </div>
@@ -109,7 +109,7 @@
                   Return Flight
                   </label>
                </div>
-               <button type="submit" class="btn btn-primary">Request a quote!</button>
+               <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#booking-modal">Request a quote!</button>
             </div>
          </form>
       </section>
@@ -138,6 +138,27 @@
             <p> <small> Copyright Samuel Denton @ The Coding Institute © 2019-2020 </small> </p>
          </div>
       </footer>
+
+<!---------------------------Booking-Modal----------------------->
+
+      <div class="modal fade" tabindex="-1" role="dialog" id="booking-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Quote Requested!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Thank you for registering your interest! We will get back to you with a personalised holiday plan shortly.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
       <!------------------------------- / Footer---------------------->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
