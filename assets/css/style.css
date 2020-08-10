@@ -296,14 +296,14 @@ nav li a:hover {
 
 .btn-light{
     font-size: 2.3vmin !important;
-    background-color: #e0dfdf !important;
+    background-color: #f3f3f3 !important;
     border: none !important;
-    color: #747474 !important;
+    color: #4b4b4b !important;
 }
 
 .btn-light:hover{
-    background-color: #747474 !important;
-    color: #e0dfdf !important;
+    background-color: #4b4b4b !important;
+    color: #f3f3f3 !important;
 }
 
 /* ---------------------- Block dividers */
@@ -669,13 +669,14 @@ footer ul {
   background: url("../images/cherry-blossom.jpeg") center center no-repeat;
   background-size: cover;
   align-items: center;
+margin-bottom: 65px;
 
 }
 
 .book-now-form {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 3px;
   text-align: center;
   align-items: center;
@@ -687,7 +688,7 @@ footer ul {
 .book-now-form {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 20px;
+  padding: 35px;
   border-radius: 3px;
   text-align: center;
   align-items: center;
@@ -707,4 +708,9 @@ footer ul {
 
 .btn-primary:hover {
   background-color: #ecc282 !important;
+}
+
+.modal-footer{
+    border-top: none !important;
+
 }

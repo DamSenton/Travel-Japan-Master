@@ -148,6 +148,8 @@ to wireframe my ideas.
 
 - All of the code for this project was written by myself, with the exception of the animations for the Gallery Images, in which I took inspiration from CoreLangs.com. This code is free to use for learning purposes.
 
+* A small amount of JavaScript was used for my booking form, which allows a modal to be shown to th euser upon the form's completion. This code was taken from CodePen.Io's user Hana Piers, so credit's to her for the help.
+
 ### Media
 
 - The hero image, the main content backgrounds and the 'Book Now' form background were taken from Google using the 'Advanced Image Search' to ensure no copyright infringment occurred.
