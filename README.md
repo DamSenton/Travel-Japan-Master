@@ -4,7 +4,7 @@
 
 The project is an in-depth travel guide for Japan, and also provides a gallery of personal photographs to highlight some of my favourite places in Japan.
 
-This websiet also provides the user with a mock-up booking form, in which they can select from various options to build their own holiday, and recieve a personalised holiday quote back.
+This website also provides the user with a mock-up booking form, in which they can select from various options to build their own holiday, and recieve a personalised holiday quote back.
 
 ![Responsive Design](/assets/images/responsive-designs.PNG)
 
@@ -20,6 +20,23 @@ This websiet also provides the user with a mock-up booking form, in which they c
 
 * While designing the website, I used [Figma](https://www.figma.com/files/project/9354776/First-Project)
 to wireframe my ideas.
+
+![Figma wireframe](/assets/images/wireframe.JPG)
+
+<hr>
+
+## User Stories
+
+These user stories helped me to make key design decisionss in order to make this website not only user-friendly, but informative.
+
+### Project Stakeholder
+
+* As the sole creator of this project, my main aim is to have this website succeed as I have a great interest in the topic and also, as my first project, I would like to prove to myself that 
+I can create and succeed in this industry.
+
+### New user
+
+* "As a user who has never visisted Japan, using this website has definitley piqued my interest."
 
 <hr>
 
@@ -116,10 +133,113 @@ to wireframe my ideas.
 
 ## Testing
 
+My testing process is explained below. The tests include:
+
+* Testing user feedback
+
+* Code validation
+
+* Browser compatibility
+
+* Responsiveness
+
+* Link tests
+
+* Form tests
+
+## User Feedback
+
+### Project Stakeholder
+
+As the creator of this project, I wanted to make this website as seamless as possible, with appropriate links and navigation.
+I would regularly check for any way to improve usability and user appeal in orde to make this as user-friendly as possible.
+
+### New Users
+
+The users I asked to test this consited of my partner and 2 friends, all of which had different screen sizes and browsers. My partner and I have visted Japan, but my 2 friends were new to this, which made them perfect first time users.
+When first testing this website, these users gave me feedback relating to the layout of the web page, mostly the aesthetics and also how some of the links did not work as intended.
+
+As these users were mostly new to this topic, testing how they navigated the website was my main focus.
+
+When the users load up the page, they are met with an industry standard navigation bar, and a visually appealing hero image which sets the scene for the web page.
+
+Pressing on the website logo or the 'Home' link on the nav bar will return the users to this landing page.
+
+When a user feels they have sppent enough time on the landing page, they can click the 'Gallery' link in the nav bar which takes them to a sleek gallery which showcases
+some personal images. The users then hover over the image, which reveals a snippet of information on each image, and also an external link, should they wish to learn more.
+
+The booking page, while not functioning, due to a lack of JavaScript knowledge, is intuitivefor each user, and also highlights to the user if they haven't filled in each section.
+Upon form completion, the user is met with a modal, aknowledging the form completion, and relaying to the user that they will be informed of any deals relating to their holiday search.
+
+### Tablet User
+
+
+### Code Validation
+
+#### HTML Validation
+
+When validating my HTML5 code, I used the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input).
+Entering my code into the validator gave the following feedback:
+
+### *index.html* 
+
+- Multiple warnings relating to comments in the code (does not affect the web page in any way)
+  
+- The following error also appears in my modal relating to the email input. "The aria-describedby attribute must point to an element in the same document.
+  From line 215, column 7; to line 221, column 26"
+
+- Due to limited JS knowledge, this does not affect my web page.
+
+
+### *gallery.html* 
+
+- Similar warnigns to the 'index.html' file in regards to the code comments (no effect on web page) 
+
+- Multiple errors as my images did not have an 'alt' attribute. This was easily fixed, and all images have now been assigned an 'alt' attribute and value
+
+#### *book-now.html*
+
+- Warnings about comments in code (no effect on web page).
+
+#### CSS Validation
+
+### *style.css* 
+
+- Various warnings about imported style sheets, relating to my use of -webkit-, -o-, and -moz- attributes to help with browser fluidity.
+
+- No errors found in my code.
+
+## Browser Compatibility
+
 - Testing for this website was carried out by myself, navigating the web page from each link, and making sure everything lead to the right place.
 
-- Testing for responsiveness was made easy with the Chrome Developer Tool which enabled me to alter the screen size of my web page to check
+- I have tested the web page on the following browsers:
+
+* Google Chrome
+
+* Microsoft Edge
+
+* Apple Safari
+
+## Responsiveness
+
+*  Testing for responsiveness was made easy with the Chrome Developer Tool which enabled me to alter the screen size of my web page to check
   everything was responsive, so that every user, regardless of which device they are using, can have the experience I intend for them to have.
+
+* The main problem I have run into is getting my footer stick to the bottom of the web page on each screen size, I have experienced some white space issues
+on the iPad and iPad pro, but this has been rectified by making a specific footer class for the 'boook-now.html' page and having played around with the body tag's height.
+
+## Link tests
+
+I have manually checked all of the following links to ensure they are working as intended:
+
+* Navigation links - These all work as intended and there are no broken links. The logo also works as a home button on each page.
+
+* Modal activation buttons - These work as intended, however, due to limited JS knowledge, the modal on the booking form does not show for as long as I would like.
+
+* Gallery images external links - I have tested all of these links, adn they all lead to their intened place, and they all open in a new tab as to not lead the user away from the website completely. These may change in the future depending on the website hosting the
+information, and this is ultimatley out of my hands.
+
 
 <hr>
 

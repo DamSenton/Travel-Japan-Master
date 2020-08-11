@@ -478,6 +478,13 @@ nav li a:hover {
     width: 100%;
 }
 
+.footer-flex{
+    display: flex;
+  min-height: 45vh;
+  flex-direction: column;
+  justify-content: space-between
+}
+
 footer ul {
   margin: 0;
 }
@@ -676,7 +683,7 @@ margin-bottom: 65px;
 .book-now-form {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 10px;
+  padding: 30px;
   border-radius: 3px;
   text-align: center;
   align-items: center;
