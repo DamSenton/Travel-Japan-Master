@@ -27,7 +27,7 @@ to wireframe my ideas.
 
 ## User Stories
 
-These user stories helped me to make key design decisionss in order to make this website not only user-friendly, but informative.
+These user stories helped me to make key design decisions in order to make this website not only user-friendly, but informative.
 
 ### Project Stakeholder
 
@@ -36,7 +36,7 @@ I can create and succeed in this industry.
 
 ### New user
 
-* "As a user who has never visisted Japan, using this website has definitley piqued my interest."
+* "As a user who has never visited Japan, using this website has definitely piqued my interest."
 
 <hr>
 
@@ -152,11 +152,11 @@ My testing process is explained below. The tests include:
 ### Project Stakeholder
 
 As the creator of this project, I wanted to make this website as seamless as possible, with appropriate links and navigation.
-I would regularly check for any way to improve usability and user appeal in orde to make this as user-friendly as possible.
+I would regularly check for any way to improve usability and user appeal in order to make this as user-friendly as possible.
 
 ### New Users
 
-The users I asked to test this consited of my partner and 2 friends, all of which had different screen sizes and browsers. My partner and I have visted Japan, but my 2 friends were new to this, which made them perfect first time users.
+The users I asked to test this consisted of my partner and 2 friends, all of which had different screen sizes and browsers. My partner and I have visited Japan, but my 2 friends were new to this, which made them perfect first time users.
 When first testing this website, these users gave me feedback relating to the layout of the web page, mostly the aesthetics and also how some of the links did not work as intended.
 
 As these users were mostly new to this topic, testing how they navigated the website was my main focus.
@@ -165,11 +165,11 @@ When the users load up the page, they are met with an industry standard navigati
 
 Pressing on the website logo or the 'Home' link on the nav bar will return the users to this landing page.
 
-When a user feels they have sppent enough time on the landing page, they can click the 'Gallery' link in the nav bar which takes them to a sleek gallery which showcases
+When a user feels they have spent enough time on the landing page, they can click the 'Gallery' link in the nav bar which takes them to a sleek gallery which showcases
 some personal images. The users then hover over the image, which reveals a snippet of information on each image, and also an external link, should they wish to learn more.
 
-The booking page, while not functioning, due to a lack of JavaScript knowledge, is intuitivefor each user, and also highlights to the user if they haven't filled in each section.
-Upon form completion, the user is met with a modal, aknowledging the form completion, and relaying to the user that they will be informed of any deals relating to their holiday search.
+The booking page, while not functioning, due to a lack of JavaScript knowledge, is intuitive for each user, and also highlights to the user if they haven't filled in each section.
+Upon form completion, the user is met with a modal, acknowledging the form completion, and relaying to the user that they will be informed of any deals relating to their holiday search.
 
 ### Tablet User
 
@@ -193,7 +193,7 @@ Entering my code into the validator gave the following feedback:
 
 ### *gallery.html* 
 
-- Similar warnigns to the 'index.html' file in regards to the code comments (no effect on web page) 
+- Similar warnings to the 'index.html' file in regards to the code comments (no effect on the  web page) 
 
 - Multiple errors as my images did not have an 'alt' attribute. This was easily fixed, and all images have now been assigned an 'alt' attribute and value
 
@@ -213,7 +213,7 @@ Entering my code into the validator gave the following feedback:
 
 - Testing for this website was carried out by myself, navigating the web page from each link, and making sure everything lead to the right place.
 
-- I have tested the web page on the following browsers:
+- I have tested the web page with the following browsers:
 
 * Google Chrome
 
@@ -237,8 +237,8 @@ I have manually checked all of the following links to ensure they are working as
 
 * Modal activation buttons - These work as intended, however, due to limited JS knowledge, the modal on the booking form does not show for as long as I would like.
 
-* Gallery images external links - I have tested all of these links, adn they all lead to their intened place, and they all open in a new tab as to not lead the user away from the website completely. These may change in the future depending on the website hosting the
-information, and this is ultimatley out of my hands.
+* Gallery images external links - I have tested all of these links, and they all lead to their intended place, and they all open in a new tab as to not lead the user away from the website completely. These may change in the future depending on the website hosting the
+information, and this is ultimately out of my hands.
 
 
 <hr>
@@ -264,15 +264,15 @@ information, and this is ultimatley out of my hands.
 
 ### Content
 
-- All of the articles on this page were conceived entirely by myself.
+- All of the articles on this page were conceived entirely by myself. However, the piece for the attraction of the month was adapted from an article by [Greg Lane](https://tokyocheapo.com/events/ueno-summer-festival/).
 
 - All of the code for this project was written by myself, with the exception of the animations for the Gallery Images, in which I took inspiration from CoreLangs.com. This code is free to use for learning purposes.
 
-* A small amount of JavaScript was used for my booking form, which allows a modal to be shown to th euser upon the form's completion. This code was taken from CodePen.Io's user Hana Piers, so credit's to her for the help.
+* A small amount of JavaScript was used for my booking form, which allows a modal to be shown to the user upon the form's completion. This code was taken from CodePen.Io's user Hana Piers, so credit to her for the help.
 
 ### Media
 
-- The hero image, the main content backgrounds and the 'Book Now' form background were taken from Google using the 'Advanced Image Search' to ensure no copyright infringment occurred.
+- The hero image, the main content backgrounds and the 'Book Now' form background were taken from Google using the 'Advanced Image Search' to ensure no copyright infringement occurred.
 
 - All of the images on the 'Gallery' page were taken by myself while on a personal trip to Japan and uploaded to [https://Imgur.com] to enable me to embed them on this page.
 
@@ -283,3 +283,5 @@ information, and this is ultimatley out of my hands.
 - The web page layout takes inspiration from multiple Code Institute projects. I have taken elements from almost each project and repurposed them to fit my web page.
 
 - This project was inspired by a lot of travel websites and also the mini projects completed alongside The Code Institute.
+
+- Thank you to my friends and family who have helped me along the way, with testing and morale support.
